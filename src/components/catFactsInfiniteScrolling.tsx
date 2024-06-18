@@ -89,6 +89,3 @@ export const CatFactsInfiniteScrolling = (): JSX.Element => {
         </div>
     )
 }
-// 5527490812
-// https://randomuser.me/api
-// https://catfact.ninja/facts

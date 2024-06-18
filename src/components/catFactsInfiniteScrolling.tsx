@@ -71,8 +71,10 @@ export const CatFactsInfiniteScrolling = (): JSX.Element => {
     }, [isLoading, handleScroll]);
 
     return (
-        <div ref={catFactsInfiniteScrollingRef} className="bg-slate-200">
-            
+        <div ref={catFactsInfiniteScrollingRef} className="bg-slate-200 pt-4">
+            <div className="w-full flex justify-center">
+                <p className="w-4/5 mt-10 mb-10">This infinite scrolling application uses <b>React-query</b> to fetch data, <b>Tailwind css</b> for styling and <b>TypeScript</b> to type data.</p>
+            </div>
             {renderingData.map((page, index) => (
                 <div key={index} className="">
                     {page.map((item, indexItem) => (
